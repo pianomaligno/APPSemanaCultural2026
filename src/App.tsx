@@ -349,10 +349,22 @@ export default function App() {
                       
                       {activity.hasTickets && (
                         <div className="pt-3 mt-3 border-t border-slate-200">
-                          <button disabled className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-slate-400 cursor-not-allowed">
-                            <Ticket className="h-4 w-4 mr-2" />
-                            Compra tu entrada (Próximamente)
-                          </button>
+                          {activity.ticketLink ? (
+                            <a 
+                              href={activity.ticketLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors"
+                            >
+                              <Ticket className="h-4 w-4 mr-2" />
+                              Compra tu entrada
+                            </a>
+                          ) : (
+                            <button disabled className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-slate-400 cursor-not-allowed">
+                              <Ticket className="h-4 w-4 mr-2" />
+                              Compra tu entrada (Próximamente)
+                            </button>
+                          )}
                         </div>
                       )}
                     </div>
