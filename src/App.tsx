@@ -183,7 +183,7 @@ export default function App() {
           
           <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-6">
             <p className="text-red-700 font-bold text-lg text-center">
-              IMPORTANTE: El plazo de inscripción acaba el día <span className="text-red-600">15/03/2026</span>
+              IMPORTANTE: El plazo de inscripción acaba el día <span className="text-red-600">16/03/2026</span>
             </p>
           </div>
 
@@ -205,9 +205,15 @@ export default function App() {
               <p className="text-sm mb-4">
                 Los alumnos pertenecientes al programa PHI podrán salir (ya que todas las actividades tienen horario de tarde) previa solicitud y autorización por parte de sus padres a través del siguiente formulario. Los alumnos que no dispongan de autorización de este programa se quedarán en el centro bajo la supervisión de los profesores asignados para dicha función.
               </p>
-              <button disabled className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-slate-400 cursor-not-allowed">
-                Formulario Autorización PHI (Próximamente)
-              </button>
+              <a 
+                href="https://forms.gle/g2fH82AGbe6aq7Rj7" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 shadow-sm transition-colors"
+              >
+                Formulario Autorización PHI
+                <ExternalLink className="ml-2 -mr-1 h-4 w-4" aria-hidden="true" />
+              </a>
             </div>
           </div>
         </div>

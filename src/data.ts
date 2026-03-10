@@ -33,8 +33,8 @@ export const mockActivities: Activity[] = [
     "description": "Taller de mantenimiento y conservación de los instrumentos de viento madera con el ponente Israel Blanes Esteve.",
     "date": "2026-03-20",
     "startTime": "13:15:00",
-    "endTime": "20:15:00",
-    "room": "B.5",
+    "endTime": "19:30:00",
+    "room": "AUD",
     "teacherName": "PEDRO JOSE MACIA CAMPILLO",
     "teacherEmail": "pedrojose.macia@murciaeduca.es",
     "level": "Ambas",
@@ -42,12 +42,44 @@ export const mockActivities: Activity[] = [
     "hasCost": true,
     "sessions": [
       {
-        "sessionName": "Única",
+        "sessionName": "Bachiller y 4º ESO",
         "date": "2026-03-20",
         "startTime": "13:15:00",
-        "endTime": "20:15:00",
-        "level": "Ambas",
-        "room": "B.5"
+        "endTime": "14:15:00",
+        "level": "EPM",
+        "room": "AUD"
+      },
+      {
+        "sessionName": "1º, 2º y 3º ESO",
+        "date": "2026-03-20",
+        "startTime": "14:15:00",
+        "endTime": "15:15:00",
+        "level": "EPM",
+        "room": "AUD"
+      },
+      {
+        "sessionName": "Clarinete, oboe y fagot EPM",
+        "date": "2026-03-20",
+        "startTime": "16:30:00",
+        "endTime": "17:30:00",
+        "level": "EPM",
+        "room": "AUD"
+      },
+      {
+        "sessionName": "Saxofón y flauta EPM",
+        "date": "2026-03-20",
+        "startTime": "17:30:00",
+        "endTime": "18:30:00",
+        "level": "EPM",
+        "room": "AUD"
+      },
+      {
+        "sessionName": "Enseñanzas Elementales",
+        "date": "2026-03-20",
+        "startTime": "18:30:00",
+        "endTime": "19:30:00",
+        "level": "EEM",
+        "room": "AUD"
       }
     ]
   },
@@ -58,7 +90,7 @@ export const mockActivities: Activity[] = [
     "date": "2026-03-20",
     "startTime": "13:15:00",
     "endTime": "20:15:00",
-    "room": "AUD",
+    "room": "B.5",
     "teacherName": "ASCENSION ALFONSO ARENAS",
     "teacherEmail": "ascension.alfonso@murciaeduca.es",
     "level": "Ambas",
@@ -70,7 +102,7 @@ export const mockActivities: Activity[] = [
         "startTime": "13:15:00",
         "endTime": "20:15:00",
         "level": "Ambas",
-        "room": "AUD"
+        "room": "B.5"
       }
     ]
   },
@@ -179,7 +211,7 @@ export const mockActivities: Activity[] = [
     "title": "Taller de manufactura de cañas para oboe",
     "description": "Elaboración de cañas para oboe en grupos de alumnos según su nivel.",
     "date": "2026-03-23",
-    "startTime": "13:15:00",
+    "startTime": "16:15:00",
     "endTime": "20:15:00",
     "room": "B.1",
     "teacherName": "PEDRO JOSE MACIA CAMPILLO",
@@ -188,10 +220,18 @@ export const mockActivities: Activity[] = [
     "category": "Viento Madera",
     "sessions": [
       {
-        "sessionName": "Única",
+        "sessionName": "Lunes",
         "date": "2026-03-23",
-        "startTime": "13:15:00",
+        "startTime": "16:15:00",
         "endTime": "20:15:00",
+        "level": "EPM",
+        "room": "B.1"
+      },
+      {
+        "sessionName": "Martes",
+        "date": "2026-03-24",
+        "startTime": "13:15:00",
+        "endTime": "15:15:00",
         "level": "EPM",
         "room": "B.1"
       }
@@ -248,8 +288,8 @@ export const mockActivities: Activity[] = [
     "title": "Mantenimiento y limpieza del violín",
     "description": "Taller práctico sobre la limpieza y el mantenimiento adecuado del instrumento y el arco.",
     "date": "2026-03-23",
-    "startTime": "16:15:00",
-    "endTime": "17:15:00",
+    "startTime": "18:15:00",
+    "endTime": "19:15:00",
     "room": "B.4",
     "teacherName": "FRANCISCO JESUS GUILLAMON SAORIN",
     "teacherEmail": "franciscojesu.guillamon@murciaeduca.es",
@@ -259,8 +299,8 @@ export const mockActivities: Activity[] = [
       {
         "sessionName": "1ª Sesión",
         "date": "2026-03-23",
-        "startTime": "16:15:00",
-        "endTime": "17:15:00",
+        "startTime": "18:15:00",
+        "endTime": "19:15:00",
         "level": "Ambas",
         "room": "B.4"
       },
@@ -338,15 +378,15 @@ export const mockActivities: Activity[] = [
   },
   {
     "id": "268",
-    "title": "Ensemble de clarinetes",
+    "title": "Ensemble de clarinetes de nivel profesional",
     "description": "Ensayos para el montaje de un repertorio que será interpretado en un concierto al final de la actividad.",
     "date": "2026-03-23",
     "startTime": "16:15:00",
     "endTime": "19:15:00",
     "room": "AIN5",
-    "teacherName": "Ezequiel de Pablos Riquelme",
-    "teacherEmail": "ezequiel.pablos@murciaeduca.es",
-    "level": "Ambas",
+    "teacherName": "Jennifer García Soto",
+    "teacherEmail": "jennifer.garcia@murciaeduca.es",
+    "level": "EPM",
     "category": "Viento Madera",
     "sessions": [
       {
@@ -354,8 +394,31 @@ export const mockActivities: Activity[] = [
         "date": "2026-03-23",
         "startTime": "16:15:00",
         "endTime": "19:15:00",
-        "level": "Ambas",
+        "level": "EPM",
         "room": "AIN5"
+      }
+    ]
+  },
+  {
+    "id": "268-EEM",
+    "title": "Ensemble de clarinetes de nivel Elemental",
+    "description": "Ensayos para el montaje de un repertorio que será interpretado en un concierto al final de la actividad.",
+    "date": "2026-03-23",
+    "startTime": "17:15:00",
+    "endTime": "19:15:00",
+    "room": "AIN2",
+    "teacherName": "Ezequiel de Pablos Riquelme",
+    "teacherEmail": "ezequiel.pablos@murciaeduca.es",
+    "level": "EEM",
+    "category": "Viento Madera",
+    "sessions": [
+      {
+        "sessionName": "Única",
+        "date": "2026-03-23",
+        "startTime": "17:15:00",
+        "endTime": "19:15:00",
+        "level": "EEM",
+        "room": "AIN2"
       }
     ]
   },
@@ -575,11 +638,27 @@ export const mockActivities: Activity[] = [
     "hasCost": true,
     "sessions": [
       {
-        "sessionName": "Única",
+        "sessionName": "1º y 2º EEM",
         "date": "2026-03-24",
         "startTime": "16:15:00",
+        "endTime": "17:15:00",
+        "level": "EEM",
+        "room": "Porche entre pabellones"
+      },
+      {
+        "sessionName": "3º y 4º EEM",
+        "date": "2026-03-24",
+        "startTime": "17:15:00",
+        "endTime": "18:15:00",
+        "level": "EEM",
+        "room": "Porche entre pabellones"
+      },
+      {
+        "sessionName": "1º y 2º EPM",
+        "date": "2026-03-24",
+        "startTime": "18:15:00",
         "endTime": "19:15:00",
-        "level": "Ambas",
+        "level": "EPM",
         "room": "Porche entre pabellones"
       }
     ]
@@ -598,11 +677,27 @@ export const mockActivities: Activity[] = [
     "category": "Viento Madera",
     "sessions": [
       {
-        "sessionName": "Única",
+        "sessionName": "1º y 2º EPM",
         "date": "2026-03-24",
         "startTime": "16:15:00",
+        "endTime": "17:15:00",
+        "level": "EPM",
+        "room": "B.1"
+      },
+      {
+        "sessionName": "3º y 4º EPM",
+        "date": "2026-03-24",
+        "startTime": "17:15:00",
+        "endTime": "18:15:00",
+        "level": "EPM",
+        "room": "B.1"
+      },
+      {
+        "sessionName": "5º y 6º EPM",
+        "date": "2026-03-24",
+        "startTime": "18:15:00",
         "endTime": "19:15:00",
-        "level": "Ambas",
+        "level": "EPM",
         "room": "B.1"
       }
     ]
@@ -627,6 +722,30 @@ export const mockActivities: Activity[] = [
         "startTime": "16:15:00",
         "endTime": "18:15:00",
         "level": "EPM",
+        "room": "AUD"
+      }
+    ]
+  },
+  {
+    "id": "266",
+    "title": "Calentamiento para instrumentos de viento y canto",
+    "description": "Calentamiento dirigido a instrumentos de viento de todas las especialidades. Se realizará un trabajo previo de cara a preparase física y mentalmente antes de salir al escenario.",
+    "date": "2026-03-24",
+    "startTime": "18:15:00",
+    "endTime": "19:00:00",
+    "room": "AUD",
+    "teacherName": "MIGUEL ANGEL RODRIGUEZ HIDALGO",
+    "teacherEmail": "miguelangel.rodriguez6@murciaeduca.es",
+    "level": "Ambas",
+    "category": "Viento y Canto",
+    "hasCost": true,
+    "sessions": [
+      {
+        "sessionName": "Única",
+        "date": "2026-03-24",
+        "startTime": "18:15:00",
+        "endTime": "19:00:00",
+        "level": "Ambas",
         "room": "AUD"
       }
     ]
@@ -812,7 +931,7 @@ export const mockActivities: Activity[] = [
   {
     "id": "157",
     "title": "Viola Time",
-    "description": "Concierto a cargo de una orquesta de violas interpretando piezas con diferentes voces, niveles y estilos.",
+    "description": "Ensayo abierto con público del ensemble de violas de los alumnos de Elemental y Profesional para preparar el concierto Viola Time que se realizará en el tercer trimestre",
     "date": "2026-03-26",
     "startTime": "16:15:00",
     "endTime": "17:15:00",
@@ -963,7 +1082,7 @@ export const mockActivities: Activity[] = [
     "date": "2026-03-26",
     "startTime": "16:15:00",
     "endTime": "19:15:00",
-    "room": "MUBG",
+    "room": "CLF1",
     "teacherName": "Juan Carlos Collado Castillo",
     "teacherEmail": "juancarlos.collado2@murciaeduca.es",
     "level": "Ambas",
@@ -975,7 +1094,7 @@ export const mockActivities: Activity[] = [
         "startTime": "16:15:00",
         "endTime": "19:15:00",
         "level": "Ambas",
-        "room": "MUBG"
+        "room": "CLF1"
       }
     ]
   },
