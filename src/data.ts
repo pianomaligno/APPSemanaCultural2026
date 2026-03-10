@@ -23,6 +23,7 @@ export interface Activity {
   category: string;
   sessions: Session[];
   hasTickets?: boolean;
+  ticketLink?: string;
   hasCost?: boolean;
 }
 
@@ -323,7 +324,7 @@ export const mockActivities: Activity[] = [
     "endTime": "21:15:00",
     "room": "1.01",
     "teacherName": "Juan Carlos Collado Castillo",
-    "teacherEmail": "juancarlos.collado2@murciaeduca.es",
+    "teacherEmail": "maria.garcia50@murciaeduca.es",
     "level": "Ambas",
     "category": "Viento Madera",
     "sessions": [
@@ -540,7 +541,7 @@ export const mockActivities: Activity[] = [
     "endTime": "20:15:00",
     "room": "PLAST",
     "teacherName": "Juan Carlos Collado Castillo",
-    "teacherEmail": "juancarlos.collado2@murciaeduca.es",
+    "teacherEmail": "maria.garcia50@murciaeduca.es",
     "level": "EEM",
     "category": "Viento Madera",
     "sessions": [
@@ -832,6 +833,7 @@ export const mockActivities: Activity[] = [
     "level": "Ambas",
     "category": "Todas las especialidades",
     "hasTickets": true,
+    "ticketLink": "https://auditorioelbatel.es/evento/gala-anual-conservatorio-cartagena/",
     "sessions": [
       {
         "sessionName": "Única",
@@ -1084,7 +1086,7 @@ export const mockActivities: Activity[] = [
     "endTime": "19:15:00",
     "room": "CLF1",
     "teacherName": "Juan Carlos Collado Castillo",
-    "teacherEmail": "juancarlos.collado2@murciaeduca.es",
+    "teacherEmail": "maria.garcia50@murciaeduca.es",
     "level": "Ambas",
     "category": "Viento Madera",
     "sessions": [
@@ -1256,6 +1258,29 @@ export const mockActivities: Activity[] = [
         "endTime": "21:15:00",
         "level": "Ambas",
         "room": "AUD"
+      }
+    ]
+  },
+  {
+    "id": "300",
+    "title": "Macroensemble de Percusión",
+    "description": "Macroensemble de percusión es una actividad de música en grupo que, además, servirá de ensayo previo de cara al encuentro de percusión que tendrá lugar en Molina de Segura.",
+    "date": "2026-03-20",
+    "startTime": "16:15:00",
+    "endTime": "18:15:00",
+    "room": "B.6",
+    "teacherName": "Elena Martínez",
+    "teacherEmail": "elena.martinez24@murciaeduca.es",
+    "level": "EPM",
+    "category": "Percusión",
+    "sessions": [
+      {
+        "sessionName": "Única",
+        "date": "2026-03-20",
+        "startTime": "16:15:00",
+        "endTime": "18:15:00",
+        "level": "EPM",
+        "room": "B.6"
       }
     ]
   }
